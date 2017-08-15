@@ -14,8 +14,12 @@ $(document).ready(function(){
       $("#health").append(userHealth + "<br>");
       surveyTotal ++;
     });
-    if (surveyTotal >= 4) {
+    if (surveyTotal >= 6) {
+      $("#danger").show();
+    }else if(surveyTotal >= 4){
       $("#warning").show();
+    }else {
+      $("#good").show();
     }
     $("#stress-form").hide();
   });

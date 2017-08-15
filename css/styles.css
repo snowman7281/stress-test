@@ -13,3 +13,10 @@ span {
 #warning {
   display: none;
 }
+#good {
+  display: none;
+}
+
+#danger{
+  display: none;
+}
