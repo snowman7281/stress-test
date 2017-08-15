@@ -1,0 +1,15 @@
+span {
+  margin: 50px, 0px, 50px;
+}
+
+#experience {
+  display: none;
+}
+
+#health {
+  display: none;
+}
+
+#warning {
+  display: none;
+}
